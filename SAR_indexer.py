@@ -8,7 +8,7 @@ for doc in folder:
         data = json.load(file)
         #asignar id al document -> hash accesible por docid
         #guardar doc en diccionari de docs
-
+        
     for article in data:
         #NEWID asignar id nuevo a cada noticia(article) -> tupla(docid, pos)
         text = data[article].split()
@@ -38,3 +38,4 @@ práctica del mono infinito.'''
 
 '''Aceptará dos argumentos de entrada: el primero el directorio donde está la colección
 de noticias y el segundo el nombre del fichero donde se guardará el índice.'''
+if "_name_" == main:
