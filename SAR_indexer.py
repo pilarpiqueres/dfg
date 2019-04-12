@@ -76,4 +76,4 @@ if "_name_" == main:
         syntax()
     colNot = sys.argv[1]
     savIndx = sys.argv[2]
-  #  indexer(colNot, savIndx)
+    indexer(colNot, savIndx)
